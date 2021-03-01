@@ -1,3 +1,5 @@
+/*HEADER*/
+
 nav {
     background-color: #2d3e50;
 }
@@ -9,3 +11,10 @@ nav {
     display: inline-block;
     text-align: right;
 }
+
+.jumbo {
+    background-color: #1abc9c;
+    height: 450px;
+}
+
+/*FINE HEADER*/
