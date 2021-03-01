@@ -18,3 +18,18 @@ nav {
 }
 
 /*FINE HEADER*/
+
+/*MAIN*/
+
+.intro {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.portfolio [class*="col-"] {
+    height : 70px; 
+    background-color: red;
+    border: 1px solid white;
+}
+
+/*FINE MAIN*/
