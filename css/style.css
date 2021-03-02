@@ -110,6 +110,17 @@ img {
 
 }
 
+#button-send {
+    padding-top: 20px;
+}
+
+.form-group input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    border-radius: 0%;
+}
 
 /*FINE MAIN*/
 

@@ -161,18 +161,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <p>Name</p>
-                        <hr>
-                        <p>Email Address</p>
-                        <hr>
-                        <p>Phone Number</p>
-                        <hr>
-                        <p>Message</p>
-                        <hr>
-
-                        <a href="#">
-                            Send
-                        </a>
+                        <form>
+                            <div class="form-group">
+                              
+                              <input type="name" class="form-control" id="InputName" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                             
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                
+                                <input type="phonenumber" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+                            </div>
+                            <textarea class="form-control" rows="6">Message</textarea>
+                            <div id="button-send"><button type="button" class="btn btn-default button">Send</button></div>
+                          </form>
                     </div>
                 </div>
             </div>
