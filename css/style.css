@@ -136,4 +136,21 @@ img {
     color: white;
     text-align: center;
 }
+
+.icon {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 24px;
+    margin-right: 6px;
+    
+}
+
+.inner-col {
+    padding: 30px;
+}
+.inner-col p span {
+    color: #1abc9c;
+}
+
 /*FINE FOOTER*/
