@@ -1,7 +1,13 @@
 /*COMMON*/
-
+body {
+    min-width: 360px; /*non fa andare a capo il burger menu quando stringo lo schermo*/
+}
+img {
+    width: 100%;
+}
 .primary {
     padding-bottom: 70px;
+    color: #2d3e50;
 }
 
 .secondary {
@@ -15,36 +21,75 @@
     padding: 30px 0;
 }
 
+.star {
+   margin: 10px 0;
+}
+
 /*HEADER*/
-
-nav {
+/*nav*/
+.header_nav {
     background-color: #2d3e50;
-}
-.row.menu {
     color: white;
+    padding: 20px 0;
 }
 
-.burger i  { /*NON ALLINEA A DESTRA*/
-    display: inline-block;
-    text-align: right;
+.header_nav ul {
+    margin: 0;
+    padding: 0;
 }
+
+.header_nav li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.header_nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_nav .brand, .header_nav .burger {
+    font-size: 16px;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*fine nav*/
+
 
 .jumbo {
     background-color: #1abc9c;
-    /*TEST*/
-    height: 450px;
+    padding: 50px 0;
+}
+
+.jumbo img {
+    width: 170px;
+}
+
+.jumbo h1, .jumbo p {
+    text-transform: uppercase;
 }
 
 /*FINE HEADER*/
 
 /*MAIN*/
 
-.portfolio [class*="col-"] {
-    /*TEST*/
-    height : 70px; 
-    background-color: red;
-    border: 1px solid white;
+/*per distanziare le colonne dalla stella nella sezione portfolio*/
+/* .portfolio [class*="col-"] {   
+    margin-top: 30px;
+}  */
+
+
+.box-image {
+    margin-bottom: 30px;
 }
+
+
 
 .secondary a {
     display: inline-block;

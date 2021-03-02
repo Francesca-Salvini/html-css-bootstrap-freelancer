@@ -15,15 +15,35 @@
 <body>
     <!--HEADER-->
     <header>
-        <nav>
+        <nav class="header_nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
-                        <div class="row menu">
-                            <div class="col-xs-6">Logo</div>
-                            <div class="hidden-xs col-ms-6">Menu</div>
-                            <div class="col-xs-6 hidden-sm hidden-md hidden-lg">
-                                <div class="burger"><i class="fas fa-bars"></i></div>
+                    <div class="col-xs-6 col-sm-6">
+                        <div class="brand">
+                            start bootstrap
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-xs-6">
+                        <div class="text-right">
+                            <ul class="hidden-xs">
+                                <li>
+                                    <a href="#">portfolio</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">contact</a>
+                                </li>
+                            </ul>
+
+                            <!--burger menu-->
+                            <div class="visible-xs-block burger">
+                                <i class="fas fa-bars"></i>
                             </div>
                         </div>
                     </div>
@@ -31,13 +51,17 @@
             </div>
         </nav>
 
-        <section class="jumbo">
+        <!--Jumbotron-->
+        <section class="jumbo secondary">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit quidem autem reprehenderit eligendi in officia sequi alias iste, perferendis consequuntur rem iure quae unde dolorum veritatis impedit soluta accusantium?
-                    </div>
+                <div class="text-center">
+                    <img src="img/avatar.svg" alt="">
+                    <h1>start bootstrap</h1>
+                <div class="star"><i class="fas fa-star"></i></div>
+                <p>graphic artist - web designer - illustrator </p>
+                
                 </div>
+                
             </div>
 
         </section>
@@ -52,18 +76,42 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>PORTFOLIO</h2>
-                        <span><i class="fas fa-star"></i></span>
+                        <div class="star"><i class="fas fa-star"></i></div>
                     </div>
                 </div>
             </div>
             <div class="container portfolio">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-4"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/cabin.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/cake.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/circus.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-image">
+                            <img src="img/submarine.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 
             </div>
