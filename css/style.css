@@ -1,6 +1,7 @@
 /*COMMON*/
 body {
-    min-width: 360px; /*non fa andare a capo il burger menu quando stringo lo schermo*/
+    min-width: 320px; /*non fa andare a capo il burger menu quando stringo lo schermo*/
+    
 }
 img {
     width: 100%;
@@ -23,6 +24,23 @@ img {
 
 .star {
    margin: 10px 0;
+}
+
+.star::before, .star::after {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    border-bottom: 2px solid #2d3e50;;
+    vertical-align: middle;
+    
+}
+
+.secondary .star::before, .secondary .star::after {
+    border-color: white;
+}
+
+.star i {
+    margin: 0 10px;
 }
 
 /*HEADER*/
@@ -68,7 +86,7 @@ img {
 }
 
 .jumbo img {
-    width: 170px;
+    width: 20%;
 }
 
 .jumbo h1, .jumbo p {
@@ -122,6 +140,19 @@ img {
     border-radius: 0%;
 }
 
+.form-group input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+  
+.form-group input:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+    color: black;
+}
+  
+.form-group input::-ms-input-placeholder{ /* Microsoft Edge */
+    color: black;
+}
+
 /*FINE MAIN*/
 
 /*FOOTER*/
@@ -141,9 +172,16 @@ img {
     display: inline-block;
     border: 1px solid white;
     border-radius: 50%;
-    width: 24px;
+    width: 30px;
+    height: 30px;
     margin-right: 6px;
+    line-height: 30px;
+    color: white;
     
+}
+
+.icon:hover {
+    color: #1abc9c;
 }
 
 .inner-col {
